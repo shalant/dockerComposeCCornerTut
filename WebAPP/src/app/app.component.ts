@@ -11,8 +11,8 @@ export class AppComponent {
   config = {
     ApiUrl: configurl.apiServer.url
   };
-  title: 'WebApp';
-  response: 'No data loaded, yet';
+  title: 'WebApp' | undefined;
+  response: 'No data loaded, yet' | undefined;
 
   constructor(private sharedService: DemoService){}
 
